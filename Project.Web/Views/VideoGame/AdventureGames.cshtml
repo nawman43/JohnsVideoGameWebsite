@@ -1,0 +1,24 @@
+﻿@using Project.Web.Models;
+@model List<VideoGameModel>
+@{
+    ViewBag.Title = "AdventureGames";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 style="text-align:center">Adventure Games</h2>
+
+<div class="container-fluid">
+    <div class="recipes row">
+        <div id="columns" data-columns="">
+            @foreach (VideoGameModel r in Model)
+            {
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <div><a href="@Url.Action("Detail", "VideoGame", new { id = r.ProductID })"><img src="@r.ImageName" style="width:100%;height:100%;" /></a></div>
+                        <h3>@r.Name</h3>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
