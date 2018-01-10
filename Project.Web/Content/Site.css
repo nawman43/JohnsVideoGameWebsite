@@ -34,13 +34,6 @@ textarea {
     }
 }
 
-/*.img{
-    display:block;
-    margin:0 auto;
-    max-width:20%;
-    max-height:20%;
-}*/
-
 .img {
     position: relative;
     float: left;
@@ -49,4 +42,50 @@ textarea {
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.smash-image {
+    height: 340px;
+    width: 340px;
+    background-image: url('images/websitepics/smash.jpg');
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    float:left;
+}
+.zelda-image {
+    height: 340px;
+    width: 340px;
+    background-image: url('images/websitepics/zelda.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+}
+.witcher-image {
+    height: 340px;
+    width: 340px;
+    background-image: url('images/websitepics/witcher.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+}
+.gears-image {
+    height: 340px;
+    width: 340px;
+    background-image: url('images/websitepics/gears.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+}
+.rocketleague-image {
+    height: 340px;
+    width: 340px;
+    background-image: url('images/websitepics/rocket.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
 }
